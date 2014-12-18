@@ -61,7 +61,8 @@ function plusOneComment (elt) {
 
 
 /*
- * useless comments are <100 chars and include no:
+ * useless comments:
+ *   - are <100 chars
  *   - have no version numbers
  *   - have no links
  *   - have no code snippets
