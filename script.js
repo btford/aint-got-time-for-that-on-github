@@ -13,7 +13,7 @@ function main () {
         greatGrandpaElt = elt.parentElement.parentElement.parentElement;
 
     // skip all of our own comments
-    if (greatGrandpaElt.className.indexOf('owner-comment') > -1) {
+    if (greatGrandpaElt.className.indexOf('owner-comment') > -1 || greatGrandpaElt.className.indexOf('preview-content') > -1) {
       continue;
     }
     if (plusOneComment(elt)) {
